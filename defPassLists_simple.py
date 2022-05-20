@@ -1,7 +1,3 @@
-#write function
-#receives inplist
-#prints
-
 def mylistfx(inplist) :
     #prints passed list
     print (inplist)

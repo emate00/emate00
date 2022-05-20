@@ -1,8 +1,3 @@
-#write a function
-#receives a string
-#prints the string
-#returns an integer
-
 def myfunction(arg) :
 
     import random
