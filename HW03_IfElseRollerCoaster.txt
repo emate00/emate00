@@ -1,0 +1,58 @@
+package rollercoasterJava;
+
+import java.util.Scanner;
+
+public class JavaRollerCoaster {
+
+	public static void main(String[] args) {
+		//create scanner
+				Scanner input = new Scanner (System.in);
+				
+				//prompt user to input age
+				System.out.print("Enter rider's age: ");
+				int age = input.nextInt();
+				
+				//verify age input is positive value
+				if (age < 0) {
+					System.out.println("Age input must be positive integer.");
+					System.exit(0);
+				}
+						
+				//prompt user to input weight
+				System.out.print("Enter rider's weight: ");
+				int weight = input.nextInt();
+				
+				//verify weight input is positive value
+				if (weight < 0) {
+					System.out.println("Weight input must be positive integer.");
+					System.exit(0);
+				}
+				
+				if (age < 0) {
+					System.out.println("Age input must be positive integer.");
+					System.exit(0);
+				}
+				
+				
+				
+				if (age <= 10 && weight <80) {
+					System.out.println("This person needs to ride the black coaster.");
+				} else if (age <= 10 && weight >= 200) {
+					System.out.println("This person needs to ride the green coaster.");
+				} else if (age <=10 && weight > 200) {
+					System.out.println("This person needs to ride the yellow coaster.");
+				} else if (age <= 20 && age > 10 && weight < 80) {
+					System.out.println("This person needs to ride the silver roller coaster.");
+				} else if (age <= 20 && age > 10 && weight >= 80 && weight <= 200) {
+					System.out.println("This person needs to ride the red roller coaster.");
+				} else if (age <= 20 && age > 10 && weight > 200) {
+					System.out.println("This person needs to ride the purple coaster.");
+				} else {
+					System.out.println("This person needs to ride the pink coaster.");
+				}
+						
+			
+
+			}
+
+		}
